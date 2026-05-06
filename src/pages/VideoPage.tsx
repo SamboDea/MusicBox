@@ -11,7 +11,7 @@ function VideoPage() {
     );
     return (
         <div>
-            {/* <div className="max-w-7xl mx-auto mt-2">
+            <div className="max-w-7xl mx-auto mt-2">
                 <div className="relative w-full flex items-center justify-center gap-6">
                     <div className="w-1/6 h-[70vh] light-side left-side hidden lg:flex">
                         <div className="light-bars">
@@ -44,14 +44,14 @@ function VideoPage() {
                         <p className="mt-1"> <span className="text-gray-400 ">ច្រៀងដោយ៖ </span>{video?.singer}</p>
                     </div>
                     <div>
-                        
+
                     </div>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
                     {relatedVideoCards}
                 </div>
-            </div > */}
+            </div >
         </div>
     );
 }

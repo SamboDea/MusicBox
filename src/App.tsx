@@ -35,7 +35,7 @@ function App() {
 
   return (
     <>
-      {/* <Header searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
+      <Header searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
 
       <main className="text-white bg-gray-900 min-h-screen pt-20 p-6">
         <Routes>
@@ -75,19 +75,7 @@ function App() {
 
           <Route path="/video/:videoId" element={<VideoPage />} />
         </Routes>
-      </main> */}
-
-      <form>
-        <div className="grid gap-6 mb-6 md:grid-cols-2">
-          <div>
-            <label className="block mb-2.5 text-sm font-medium text-heading">First name</label>
-            <input type="text" value={value} onChange={handleChange} className="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body" placeholder="John" required />
-
-            <h1>this value: {value}</h1>
-          </div>
-        </div>
-
-      </form>
+      </main>
 
     </>
   );
