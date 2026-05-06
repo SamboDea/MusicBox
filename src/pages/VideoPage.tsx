@@ -24,7 +24,8 @@ function VideoPage() {
                         <iframe
                             className="w-full h-[70vh] rounded-2xl shadow-2xl"
                             src={`https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1&controls=1&autoplay=1`}
-                            allow="autoplay "
+                            title="YouTube video player"
+                            allow="autoplay"
                             allowFullScreen
                         />
                     </div>

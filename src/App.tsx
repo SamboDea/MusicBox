@@ -27,12 +27,6 @@ function App() {
     return () => clearTimeout(timer);
   }, [searchQuery]);
 
-  const [value, setValue] = useState("");
-
-  function handleChange(event: React.ChangeEvent<HTMLInputElement>) {
-    setValue(event.target.value);
-  }
-
   return (
     <>
       <Header searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
